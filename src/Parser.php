@@ -352,7 +352,7 @@ class Parser
                 break;
 
             case self::STATE_DONE:
-                $this->throwParseError("Expected end of document.");
+                // $this->throwParseError("Expected end of document.");
                 break;
 
             default:
